@@ -62,3 +62,22 @@ body {
   max-width: 100%;
   vertical-align: middle;
 }
+
+@media screen and (max-width: 991px) {
+  .container {
+    max-width: 728px;
+  }
+
+  .hero-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero-split {
+    max-width: 100%;
+  }
+
+  .hero-split button {
+    margin-bottom: 30px;
+  }
+}
