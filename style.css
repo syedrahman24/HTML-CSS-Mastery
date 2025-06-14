@@ -40,6 +40,26 @@ body {
   align-items: center;
 }
 
+.column{
+  display: flex;
+  max-width: 750px;
+  margin-right: auto;
+  margin-left: auto;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center !important;
+  text-align: center;
+
+}
+
+.full{
+  width: 100%;
+  max-width: 100% !important;
+  align-items: center !important;
+}
+
+
+
 .hero-split {
   display: flex;
   flex-direction: column;
@@ -67,6 +87,7 @@ body {
   font-size: 12px;
   line-height: 20px;
   transition: all 0.2s;
+  margin-bottom: 20px;
 }
 
 .hero-split img {
