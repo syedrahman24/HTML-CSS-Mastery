@@ -4,6 +4,12 @@
   padding: 0;
 }
 
+h3{
+ font-size: 38px;
+  line-height: 44px;
+  margin-bottom: 50px;
+}
+
 body {
   margin: 0;
   min-height: 100%;
@@ -20,6 +26,12 @@ body {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.complete-hero{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .hero-wrapper {
@@ -63,6 +75,12 @@ body {
   vertical-align: middle;
 }
 
+.hero-heading-right{
+  position: relative;
+  padding: 80px 30px;
+
+}
+
 @media screen and (max-width: 991px) {
   .container {
     max-width: 728px;
@@ -79,5 +97,9 @@ body {
 
   .hero-split button {
     margin-bottom: 30px;
+  }
+
+  .hero-img {
+    margin: 20px 0px;
   }
 }
